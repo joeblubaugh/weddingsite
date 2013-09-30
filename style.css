@@ -1,4 +1,9 @@
+body {
+ background: #9AD7B2;
+ padding: 0px;
+ margin: 0px;
+}
 #center {
- width: 954px;
- margin: 0 auto;
+  width: 954px;
+  margin: 0 auto;
 }
