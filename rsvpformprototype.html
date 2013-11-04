@@ -1,0 +1,18 @@
+      <form id="rsvp-form" action="?" method="post"> <!-- TODO(joe): Look into Google forms for this. -->
+        <label>Name<input type="text" placeholder="Bob Loblaw" name="name" id="id"></label>
+        <label>Email Address (we promise to only spam you with wedding-related stuff)
+          <input type="text" placeholder="bob@loblaw.com" name="email"></label>
+        <!-- Radio group that says: See you there!/We can't attend. -->
+        <label>Number of Guests
+          <select name="Guest count">
+            <option>1</option>
+            <option>2</option>
+            <option>2+</option>
+          </select>
+        </label>
+        <!-- Meal stuff. -->
+        <label>Dietary Restrictions
+          <textarea name="food-info" placeholder="Peanut Allergy, Veganism, Religious restrictions, etc."></textarea>
+        </label>
+        <button type="Submit">RSVP</button>
+      </form>
