@@ -13,21 +13,14 @@
         <img src="./index_files/web.png" alt="Joe &amp; Sin are getting married! 14 June 2014 | Mountain View, CA">
       </div>
       <ul class="nav">
-        <li data-selected="true"><a href="#sinandjoe" title="A little bit about the bride and groom.">Sin &amp; Joe</a></li>
         <!-- Heart image goes here -->
         <li><a href="#weddingday" title="Important information for the big day!">Wedding Day</a></li>
         <li><a href="#travel" title="Hotels, Airports and other travel information.">Travel &amp; Accomodations</a></li>
         <li><a href="#rsvp" title="Let Us Know if you can make it!">RSVP</a></li>
+        <li data-selected="true"><a href="#sinandjoe" title="A little bit about the bride and groom.">Sin &amp; Joe</a></li>
       </ul>
       <div class="body">
-        <div id="sinandjoe">
-          <h1>Sin &amp; Joe</h1>
-          <h2>A little bit about the Bride and Groom</h2>
-          <div class="content">
-            Sin &amp; Joe Test Text
-          </div>
-        </div>
-        <div id="weddingday">
+        <div id="weddingday" class="section">
           <h1>The Day Of</h1>
           <h2>Where</h2>
           <div class="content">
@@ -38,7 +31,7 @@
             Times
           </div>
         </div>
-        <div id="travel">
+        <div id="travel" class="section">
           <h1>Travel &amp; Accomodations</h1>
           <h2>Travel</h2>
           <div class="content">
@@ -49,14 +42,22 @@
             Stuff about hotels and shuttles.
           </div>
         </div>
-        <div id="rsvp">
+        <div id="rsvp" class="section">
           <h1>RSVP</h1>
           <div class="content">
             A form for rsvping.
           </div>
+        </div>
+        <div id="sinandjoe" class="section">
+          <h1>Sin and Joe</h1>
+          <h2>A little bit about the Bride &amp; Groom</h2>
+          <div class="content">
+            Sin &amp; Joe's meet-cute &amp; pictures
+          </div>
       </div> <!-- body -->
     </div> <!-- Center -->
-    <script type="text/js" src="nav.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="nav.js"></script>
   </body>
 </html>
 

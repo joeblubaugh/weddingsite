@@ -21,6 +21,19 @@ h1 {
   font-size: 3em;
 }
 
+.section {
+  padding-top: 64px;
+}
+
+div.section.spaced {
+  padding-top: 128px;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+}
+
 .center {
   width: 954px;
   margin: 0 auto;
