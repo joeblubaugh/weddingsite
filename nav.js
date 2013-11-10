@@ -13,7 +13,7 @@
         didScroll = false;
         // Adjust nav based on position.
         var scrollTop = $(document).scrollTop();
-        if (scrollTop >= navPosition.top) {
+        if (scrollTop > navPosition.top) {
           // Make sure position style is set on nav.
           if (!nav.hasClass('top')) {
             nav.addClass('top');

@@ -30,11 +30,6 @@ div.section.spaced {
   padding-top: 128px;
 }
 
-.top {
-  position: fixed;
-  top: 0;
-}
-
 .center {
   width: 954px;
   margin: 0 auto;
@@ -42,13 +37,27 @@ div.section.spaced {
 
 .nav {
   width: 954px;
+  transition: top 1s;
+  -webkit-transition: top 1s;
   background-color: #9AD7B2;
-  background: linear-gradient(to bottom, rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
-  background: -webkit-linear-gradient(top, rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
+  background: linear-gradient(to bottom, 
+  rgba(154, 215, 178, 0) 0%, rgba(154, 215, 178, 1) 26%,
+  rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
+  background: -webkit-linear-gradient(top, 
+  rgba(154, 215, 178, 0) 0%, rgba(154, 215, 178, 1) 26%,
+  rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
   display: inline-block;
-  margin: 0 auto;
+  margin: -24px auto 0 auto;
   padding: 1em 0;
-  border-top: 2px solid #2D5850;
+}
+
+.top {
+  position: fixed;
+  top: 24px;
+  background: linear-gradient(to bottom, 
+  rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
+  background: -webkit-linear-gradient(top, 
+  rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
 }
 
 .nav a {
