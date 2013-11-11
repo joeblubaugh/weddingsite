@@ -35,6 +35,11 @@ div.section.spaced {
   margin: 0 auto;
 }
 
+.flow {
+  float: right;
+  margin-left: 1.5em;
+}
+
 .nav {
   width: 954px;
   transition: top 1s;
@@ -84,3 +89,4 @@ div.section.spaced {
   border-radius: 6px;
   background-color: #D3FDD7;
 }
+
