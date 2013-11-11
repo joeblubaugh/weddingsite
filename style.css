@@ -10,12 +10,17 @@ body {
  margin: 0;
  font-family: Merriweather, Times New Roman, serif;
  font-size: 110%;
+ line-height: 150%;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: Raleway, Arial, sans serif;
   text-align: center;
   color: #2D5850;
+}
+
+h3 {
+  text-align: left;
 }
 
 h1 {
