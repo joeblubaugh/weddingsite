@@ -5,26 +5,33 @@
  * "White": EFF9F2;
  */
 body {
- background: #9AD7B2;
+ background: #FFFFF6;
  padding: 0;
  margin: 0;
- font-family: Merriweather, Times New Roman, serif;
+ font-family: Cantarell, sans serif;
+ color: #666;
+ font-weight: 400;
  font-size: 110%;
  line-height: 150%;
 }
 
 h1, h2, h3 {
-  font-family: Raleway, Arial, sans serif;
+  font-family: Amatic SC, sans serif;
   text-align: center;
   color: #2D5850;
 }
 
 h3 {
   text-align: left;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 3em;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .section {
@@ -51,11 +58,9 @@ div.section.spaced {
   -webkit-transition: top 1s;
   background-color: #9AD7B2;
   background: linear-gradient(to bottom, 
-  rgba(154, 215, 178, 0) 0%, rgba(154, 215, 178, 1) 26%,
-  rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
+  rgba(154, 215, 178, 0) 0%, rgba(154, 215, 178, 1) 26%);
   background: -webkit-linear-gradient(top, 
-  rgba(154, 215, 178, 0) 0%, rgba(154, 215, 178, 1) 26%,
-  rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
+  rgba(154, 215, 178, 0) 0%, rgba(154, 215, 178, 1) 26%);
   display: inline-block;
   margin: -24px auto 0 auto;
   padding: 1em 0;
@@ -64,10 +69,7 @@ div.section.spaced {
 .top {
   position: fixed;
   top: 24px;
-  background: linear-gradient(to bottom, 
-  rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
-  background: -webkit-linear-gradient(top, 
-  rgba(154, 215, 178, 1) 74%, rgba(154, 215, 178, 0) 100%);
+  background: rgba(154, 215, 178, 1);
 }
 
 .nav a {
@@ -81,9 +83,9 @@ div.section.spaced {
 
 .nav>li {
   display: inline-block;
-  font-size: 160%;
-  margin: 0 1em;
-  font-family: Raleway, Arial, sans serif;
+  font-size: 220%;
+  margin: 0 1.1em;
+  font-family: Amatic SC, sans serif;
   font-weight: 700;
   color: #2D5850;
 }
@@ -91,7 +93,5 @@ div.section.spaced {
 .content {
   margin: 0 auto;
   padding: 2em;
-  border-radius: 6px;
-  background-color: #D3FDD7;
 }
 
